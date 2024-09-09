@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024, KAN Territory & IT
+# This file is distributed under the same license as the KoboToolBox
+# Provider for Apache Airflow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: KoboToolBox Provider for Apache Airflow \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-09 15:22-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: ../../kobo_provider.hooks.rst:2
+msgid "kobo\\_provider.hooks package"
+msgstr ""
+
+#: ../../kobo_provider.hooks.rst:5
+msgid "Submodules"
+msgstr ""
+
+#: ../../kobo_provider.hooks.rst:8
+msgid "kobo\\_provider.hooks.kobotoolbox module"
+msgstr ""
+
+#: kobo_provider.hooks.kobotoolbox.KoboHook:1 of
+msgid "Bases: :py:class:`~airflow.hooks.base.BaseHook`"
+msgstr ""
+
+#: kobo_provider.hooks.kobotoolbox.KoboHook:1 of
+msgid ""
+"Interact with KoboToolBox. Methods list: * get_form_ids: Allows to obtain"
+" the formid and the id_string of a form providing his formid or his "
+"id_string. * get_form_metadata: Gets the metadata of a form. * "
+"get_form_columns: Gets form columns. * get_form_submission: Gets the "
+"submissions or responses for a form."
+msgstr ""
+
+#: kobo_provider.hooks.kobotoolbox.KoboHook.get_form_columns:1 of
+msgid "This method gets all columns for a specific form"
+msgstr ""
+
+#: kobo_provider.hooks.kobotoolbox.KoboHook.get_form_columns
+#: kobo_provider.hooks.kobotoolbox.KoboHook.get_form_ids
+#: kobo_provider.hooks.kobotoolbox.KoboHook.get_form_metadata
+#: kobo_provider.hooks.kobotoolbox.KoboHook.get_form_submission of
+msgid "Parameters"
+msgstr ""
+
+#: kobo_provider.hooks.kobotoolbox.KoboHook.get_form_columns:3
+#: kobo_provider.hooks.kobotoolbox.KoboHook.get_form_ids:5 of
+msgid "id_string of a form."
+msgstr ""
+
+#: kobo_provider.hooks.kobotoolbox.KoboHook.get_form_columns
+#: kobo_provider.hooks.kobotoolbox.KoboHook.get_form_ids
+#: kobo_provider.hooks.kobotoolbox.KoboHook.get_form_metadata
+#: kobo_provider.hooks.kobotoolbox.KoboHook.get_form_submission of
+msgid "Returns"
+msgstr ""
+
+#: kobo_provider.hooks.kobotoolbox.KoboHook.get_form_columns:6 of
+msgid "A JSON object (or python dict) with the form columns and their types."
+msgstr ""
+
+#: kobo_provider.hooks.kobotoolbox.KoboHook.get_form_ids:1 of
+msgid ""
+"This method allows to get a formid and id_string for a form, providing "
+"his formid or his id_string."
+msgstr ""
+
+#: kobo_provider.hooks.kobotoolbox.KoboHook.get_form_ids:3 of
+msgid "formid of a form."
+msgstr ""
+
+#: kobo_provider.hooks.kobotoolbox.KoboHook.get_form_ids:8 of
+msgid "This method returns the formid and the id_string for a form."
+msgstr ""
+
+#: kobo_provider.hooks.kobotoolbox.KoboHook.get_form_metadata:1 of
+msgid "Retrieve metadata of a specific form."
+msgstr ""
+
+#: kobo_provider.hooks.kobotoolbox.KoboHook.get_form_metadata:3
+#: kobo_provider.hooks.kobotoolbox.KoboHook.get_form_submission:4 of
+msgid "Form ID to be fetched"
+msgstr ""
+
+#: kobo_provider.hooks.kobotoolbox.KoboHook.get_form_metadata:6 of
+msgid "A JSON object (or python dict) with the form metadata."
+msgstr ""
+
+#: kobo_provider.hooks.kobotoolbox.KoboHook.get_form_submission:1 of
+msgid ""
+"Retrieve submission of a specific form. You can specify \"last_id\" param"
+" that allows you to filter the sumbits with \"_id\" greater than the "
+"\"last_id\" specified"
+msgstr ""
+
+#: kobo_provider.hooks.kobotoolbox.KoboHook.get_form_submission:7 of
+msgid ""
+"Optional. filter the sumbits with \"_id\" greater than the \"last_id\" "
+"specified"
+msgstr ""
+
+#: kobo_provider.hooks.kobotoolbox.KoboHook.get_form_submission:10 of
+msgid "A JSON object (or python dict) with the form submissions."
+msgstr ""
+
+#: ../../kobo_provider.hooks.rst:16
+msgid "Module contents"
+msgstr ""
+
